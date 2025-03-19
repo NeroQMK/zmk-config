@@ -72,7 +72,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB BRI
   - F6
   - F7
   - F8
@@ -85,7 +85,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB BRD
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+L
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB EFR
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -111,7 +111,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB EFF
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -124,7 +124,7 @@ layers:
   - LGUI
   - {t: '1', type: held}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB TOG
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
   - $$mdi:backspace-reverse-outline$$
@@ -146,7 +146,7 @@ layers:
   - PRINTSCREEN
   - $$mdi:keyboard-tab$$
   - Sft+!
-  - Sft+"
+  - '"'
   - Sft+#
   - Sft+$
   - Sft+%
@@ -189,7 +189,7 @@ layers:
   - LGUI
   - {t: '1', type: held alternate}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&bl BL_TOG'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '2', type: held}
   - $$mdi:backspace-reverse-outline$$
