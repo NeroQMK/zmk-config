@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   LAYER0:
-  - '~'
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -53,11 +53,11 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-command$$
+  - MUTE
   - '1'
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -119,10 +119,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - LGUI
   - {t: '1', type: held}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - RGB TOG
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -184,10 +184,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - LGUI
-  - {t: '1', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - '&bl BL_TOG'
   - {t: '$$mdi:keyboard-return$$', type: enter}
