@@ -3,6 +3,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
@@ -55,11 +56,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE  &kp F1           &kp F2            &kp F3        &kp F4        &kp F5       &rgb_ug RGB_BRI  &kp F6    &kp F7    &kp F8   &kp F9     &kp F10  &kp F11
-&kp TAB    &kp N1           &kp N2            &kp N3        &kp N4        &kp N5       &rgb_ug RGB_BRD  &kp N6    &kp N7    &kp N8   &kp N9     &kp N0   &kp BSPC
-&kp LCTRL  &none            &none             &none         &none         &kp LG(L)    &rgb_ug RGB_EFR  &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &none    &none
-&kp LSHFT  &kp NON_US_HASH  &kp LC(LA(BSLH))  &none         &none         &none        &rgb_ug RGB_EFF  &none     &none     &none    &none      &none    &kp ESCAPE
-&kp LALT   &mo 1            &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE    &rgb_ug RGB_TOG  &kp RET   &mo 2     &kp DEL  &none      &none
+&kp GRAVE  &kp F1           &kp F2            &kp F3        &kp F4        &kp F5         &rgb_ug RGB_BRI  &kp F6     &kp F7    &kp F8        &kp F9                &kp F10                &kp F11
+&kp TAB    &kp N1           &kp N2            &kp N3        &kp N4        &kp N5         &rgb_ug RGB_BRD  &kp N6     &kp N7    &kp N8        &kp N9                &kp N0                 &kp BSPC
+&kp LCTRL  &kp EXCL         &kp AT_SIGN       &kp HASH      &kp DOLLAR    &kp PERCENT    &rgb_ug RGB_EFR  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&kp LSHFT  &kp NON_US_HASH  &kp LC(LA(BSLH))  &none         &none         &none          &rgb_ug RGB_EFF  &none      &none     &none         &none                 &none                  &kp ESCAPE
+&kp LALT   &mo 1            &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE      &rgb_ug RGB_TOG  &kp RET    &mo 2     &kp DEL       &none                 &none
             >;
 
             sensor-bindings = <&inc_dec_kp K_REDO K_UNDO>;
